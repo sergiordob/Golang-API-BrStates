@@ -2,33 +2,33 @@
 
 This is a simple example of a REST API in Go (Golang) that uses version 1.22 of Go itself to create an HTTP server and the GORM ORM to interact with a PostgreSQL database.
 
-'Acre'
-'Alagoas'
-'Amapá'
-'Amazonas'
-'Bahia'
-'Ceará'
-'Distrito Federal'
-'Espírito Santo'
-'Goiás',
-'Maranhão', 
-'Mato Grosso',
-'Mato Grosso do Sul',
-'Minas Gerais',
-'Pará', 
-'Paraíba',
-'Paraná', 
-'Pernambuco', 
-'Piauí',
-'Rio de Janeiro',
-'Rio Grande do Norte'
-'Rio Grande do Sul', 
-'Rondônia', 
-'Roraima',
-'Santa Catarina', 
-'São Paulo', 
-'Sergipe',
-'Tocantins'
+1. `Acre`
+2. `Alagoas`
+3. `Amapá`
+4. `Amazonas`
+5. `Bahia`
+6. `Ceará`
+7. `Distrito Federal`
+8. `Espírito Santo`
+9. `Goiás`
+10. `Maranhão` 
+11. `Mato Grosso`
+12. `Mato Grosso do Sul`
+13. `Minas Gerais`
+14. `Pará` 
+15. `Paraíba`
+16. `Paraná` 
+17. `Pernambuco` 
+18. `Piauí`
+19. `Rio de Janeiro`
+20. `Rio Grande do Norte`
+21. `Rio Grande do Sul` 
+21. `Rondônia` 
+22. `Roraima`
+23. `Santa Catarina` 
+24. `São Paulo` 
+25. `Sergipe`
+27. `Tocantins`
 
 ## Configuration
 
