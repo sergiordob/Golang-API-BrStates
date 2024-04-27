@@ -17,3 +17,9 @@ You can set up a PostgreSQL database using Docker Compose. The `docker-compose.y
 
 ```bash
 docker-compose up
+
+This command will start the PostgreSQL and PgAdmin services.
+
+Access PgAdmin in your browser using the following address:
+
+http://localhost:54321
