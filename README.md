@@ -40,15 +40,10 @@ During the initialization of the PostgreSQL service, Docker Compose will run an 
 
 ## Project Structure
 
-`config/`: Contains the HTTP server configuration.
-`controllers/`: Controllers to handle HTTP requests.
-`database/`: Configuration and connection with the database.
-`models/`: Definition of the application data models.
-`routes/`: Definition of API routes.
-`main.go`: Entry point of the application, where routes are loaded and the server is initialized.
+1. `config/`: Contains the HTTP server configuration.
+2. `controllers/`: Controllers to handle HTTP requests.
+3. `database/`: Configuration and connection with the database.
+4. `models/`: Definition of the application data models.
+5. `routes/`: Definition of API routes.
+6. `main.go`: Entry point of the application, where routes are loaded and the server is initialized.
 
-
-
-
-
-asa
