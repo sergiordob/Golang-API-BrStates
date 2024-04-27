@@ -19,7 +19,33 @@ This command will start the PostgreSQL and PgAdmin services.
 
 Access PgAdmin in your browser using the following address: `http://localhost:54321`
 
+Use the email eletricamat@gmail.com and password admin to log in. Then, you can add a PostgreSQL server and connect to the database.
 
+## Migration Script
+
+During the initialization of the PostgreSQL service, Docker Compose will run an SQL script located at `./migration/docker-database-initial.sql.` This script is responsible for creating the necessary database and table for the application.
+
+## How to Use
+
+1. Clone this repository to your local machine.
+2. Make sure you have the GORM dependency installed.
+3. Set up the Docker Compose environment as described above.
+4. Run the server with the following command: `go run main.go`
+
+## Endpoints
+
+`GET /api`: Returns all states in JSON format.
+`GET /api/{id}`: Returns a specific state by ID in JSON format.
+`GET /api/total`: Returns all states in JSON format.
+
+## Project Structure
+
+`config/`: Contains the HTTP server configuration.
+`controllers/`: Controllers to handle HTTP requests.
+`database/`: Configuration and connection with the database.
+`models/`: Definition of the application data models.
+`routes/`: Definition of API routes.
+`main.go`: Entry point of the application, where routes are loaded and the server is initialized.
 
 
 
