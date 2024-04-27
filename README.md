@@ -3,6 +3,10 @@
 This is a simple example of a REST API in Go (Golang) that uses version 1.22 of Go itself to create an HTTP server and the GORM ORM to interact with a PostgreSQL database.
 This API will return a JSON with data about the Brazilian states according to some ID informed in the GET request: localhost:8080/api/{ID} for a specific return or localhost:8080/api/total to get all the information.
 
+<p align="center">
+  <img src="./postman.png" alt="Image">
+</p>
+
 List of IDs:
 
 1. `Acre`
