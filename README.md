@@ -34,9 +34,11 @@ During the initialization of the PostgreSQL service, Docker Compose will run an 
 
 ## Endpoints
 
-1.`GET /api`: Returns all states in JSON format.
-2.`GET /api/{id}`: Returns a specific state by ID in JSON format.
-3.`GET /api/total`: Returns all states in JSON format.
+1. `GET /api`: Returns all states in JSON format.
+
+2. `GET /api/{id}`: Returns a specific state by ID in JSON format.
+   
+3 .`GET /api/total`: Returns all states in JSON format.
 
 ## Project Structure
 
